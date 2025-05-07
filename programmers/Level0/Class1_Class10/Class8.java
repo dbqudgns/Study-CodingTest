@@ -1,18 +1,14 @@
-// 숫자 비교하기
-package Level0;
+// 두 수의 나눗셈
+package Level0.Class1_Class10;
 
 import java.util.Scanner;
 
-public class Class3 {
+public class Class8 {
 
     public static int solution(int num1, int num2) {
-        int answer = 0;
-
-        if (num1 == num2)
-            answer = 1;
-        else
-            answer = -1;
-        return answer;
+        double answer = 0;
+        answer = ((double) num1 / num2) * 1000;
+        return (int) answer;
     }
 
     public static void main(String[] args) {
@@ -23,7 +19,6 @@ public class Class3 {
         int answer = solution(num1, num2);
 
         System.out.println(answer);
-
     }
 
 }

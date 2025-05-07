@@ -1,14 +1,14 @@
-// 두 수의 나눗셈
-package Level0;
+// 몫 구하기
+package Level0.Class1_Class10;
 
 import java.util.Scanner;
 
-public class Class8 {
+public class Class5 {
 
     public static int solution(int num1, int num2) {
-        double answer = 0;
-        answer = ((double) num1 / num2) * 1000;
-        return (int) answer;
+        int answer = 0;
+        answer = num1 / num2;
+        return answer;
     }
 
     public static void main(String[] args) {

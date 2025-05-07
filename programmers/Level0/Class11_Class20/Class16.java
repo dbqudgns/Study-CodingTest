@@ -1,5 +1,5 @@
 // 배열 뒤집기
-package Level0;
+package Level0.Class11_Class20;
 
 import java.util.Arrays;
 import java.util.Scanner;

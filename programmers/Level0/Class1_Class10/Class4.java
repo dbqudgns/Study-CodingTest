@@ -1,13 +1,13 @@
-// 나머지 구하기
-package Level0;
+// 두 수의 곱 구하기
+package Level0.Class1_Class10;
 
 import java.util.Scanner;
 
-public class Class1 {
+public class Class4 {
 
     public static int solution(int num1, int num2) {
-        int answer = -1;
-        answer = num1 % num2;
+        int answer = 0;
+        answer = num1 * num2;
         return answer;
     }
 
@@ -16,10 +16,9 @@ public class Class1 {
 
         int num1 = sc.nextInt();
         int num2 = sc.nextInt();
-        int solution = solution(num1, num2);
+        int answer = solution(num1, num2);
 
-        System.out.println(solution);
-
+        System.out.println(answer);
     }
 
 }

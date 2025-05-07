@@ -1,5 +1,5 @@
 // 나이 출력
-package Level0;
+package Level0.Class1_Class10;
 
 import java.util.Scanner;
 

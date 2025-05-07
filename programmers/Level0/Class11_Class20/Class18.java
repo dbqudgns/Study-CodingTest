@@ -1,5 +1,5 @@
 // 짝수 홀수 개수
-package Level0;
+package Level0.Class11_Class20;
 
 import java.util.Arrays;
 import java.util.Scanner;
