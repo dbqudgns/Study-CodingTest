@@ -1,5 +1,5 @@
 // 피자 나눠 먹기 (3)
-package Level0;
+package Level0.Class11_Class20;
 
 import java.util.Scanner;
 

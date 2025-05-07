@@ -1,5 +1,5 @@
 // 각도기
-package Level0;
+package Level0.Class1_Class10;
 
 import java.util.Scanner;
 
