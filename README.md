@@ -5,6 +5,8 @@
 ## Level0 
 - 05/05 : Class1 ~ Class10
 - 05/06 : Class11 ~ Class20
+- 05/07 : Class21 ~ Class25
+- 05/08 : Class26 ~ Class30
 
 ## Level1
 
