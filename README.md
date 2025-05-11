@@ -8,7 +8,9 @@
 - 05/07 : Class21 ~ Class25
 - 05/08 : Class26 ~ Class30
 - 05/09 : Class31 ~ Class35
-
+- 05/10 : Class36 ~ Class40
+- 05/11 : Class41 ~ Class45
+  
 ## Level1
 
 ## Level2
