@@ -13,6 +13,7 @@
 - 05/12 : Class46 ~ Class47
 - 05/13 : Class48 ~ Class52
 - 05/14 : Class53 ~ Class57
+- 05/15 : Class58 ~ Class62
   
 ## Level1
 
