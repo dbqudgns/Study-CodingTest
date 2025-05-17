@@ -10,18 +10,20 @@ public class Class66 {
         int factorial = 1;
 
         // n의 범위 값(10!)이 정해져 있으므로 최대 팩토리얼은 10
-        for (int i = 1; i <= 10; i++) {
+        //for (int i = 1; i <= 10; i++) {
+        int i = 1;
+        while (true) {
             factorial *= i;
 
             if (factorial == n) {
                 answer = i;
                 break;
-            }
-            else if (n < factorial) {
+            } else if (n < factorial) {
                 answer = (i - 1);
                 break;
-            }
+            } else i++;
         }
+
 
         return answer;
 
