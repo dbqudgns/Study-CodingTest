@@ -18,6 +18,7 @@
 - 05/17 : Class65, Class67 ~ Class70
 - 05/18 : Class71 ~ Class75
 - 05/19 : Class76 ~ Class80
+- 05/20 : Class81 ~ Class83
   
 ## Level1
 
