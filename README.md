@@ -23,7 +23,8 @@
 - 05/22 : Class87 ~ Class89
 - 05/23 : Class90 ~ Class92
 - 05/24 : Class93 ~ Class95
-  
+- 05/25 : Class96 ~ Class98
+
 ## Level1
 
 ## Level2
