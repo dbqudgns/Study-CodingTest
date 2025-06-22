@@ -32,7 +32,7 @@ public class 전화번호_목록 {
         return answer;
     }
 
-    /** 단순 배열을 통해 시간복잡도 단축 */
+    /** Arrays.sort()와 단순 배열을 통해 시간복잡도 단축 */
 //    class Solution {
 //        public boolean solution(String[] phoneBook) {
 //            Arrays.sort(phoneBook);
