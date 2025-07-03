@@ -21,10 +21,10 @@ public class 디스크_컨트롤러 {
         int totalWaitTime = 0; // 모든 작업의 대기 시간
 
         // 3. 모든 작업이 처리될 때까지 반복문 수행한다.
-        while(count < jobs.length) {
+        while (count < jobs.length) {
 
             // 4. 현재 시간 이전에 요청된 모든 작업을 우선순위 큐에 추가
-            while( index < jobs.length && jobs[index][0] <= time) {
+            while (index < jobs.length && jobs[index][0] <= time) {
                 queue.add(jobs[index++]);
             }
 
@@ -37,19 +37,14 @@ public class 디스크_컨트롤러 {
 
                 totalWaitTime += time - job[0]; // 각 job의 대기 시간을 더한다.
 
+                count++; // 처리된 작업 수를 증가
             }
-
-
-
-
         }
 
-        int answer = 0;
-
-
-
-        return answer;
+        // 7. 모든 작업의 대기 시간 총합을 작업 수로 나누어 평균 대기 시간을 계산 후 반환
+        return totalWaitTime / jobs.length;
     }
+
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
