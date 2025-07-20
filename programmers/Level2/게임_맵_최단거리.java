@@ -4,8 +4,8 @@ import java.util.*;
 
 public class 게임_맵_최단거리 {
 
-    static int[] dX = {1, -1, 0, 0}; // 동, 서, 북, 남
-    static int[] dY = {0, 0, 1, -1}; // 동, 서, 북, 남
+    static int[] dX = {0, 0, 1, -1}; // 동, 서, 남, 북
+    static int[] dY = {1, -1, 0, 0}; // 동, 서, 남, 북
 
     public static int solution(int[][] maps) {
         int answer = 0;
@@ -37,8 +37,8 @@ public class 게임_맵_최단거리 {
 
         while(!queue.isEmpty()) {
             int[] current = queue.poll(); // 현재 위치를 꺼낸다.
-            int cX = current[0];
-            int cY = current[1];
+            int cX = current[0]; // 현재 x 좌표
+            int cY = current[1]; // 현재 y 좌표
 
             // 4뱡향으로 이동 시도
             for (int i = 0; i < 4; i++) {
@@ -50,6 +50,7 @@ public class 게임_맵_최단거리 {
 
                 // 아직 방문하지 않았고 벽이 아닌 곳일 경우
                 if (visited[nX][nY] == 0 && maps[nX][nY] == 1) {
+                    // 경로가 가장 빠른 곳이 먼저 visited 하기 때문에 다른 곳에서온 경로도 visited = true로 인해 끊기게 된다.
                     visited[nX][nY] = visited[cX][cY] + 1; // 이전위치 + 1
                     queue.add(new int[]{nX, nY}); // 큐에 다음 위치 추가
                 }
