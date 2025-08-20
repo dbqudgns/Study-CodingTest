@@ -1,4 +1,4 @@
-package Level3;
+package 알고리즘_고득점_Kit.이분탐색;
 
 import java.util.*;
 
