@@ -1,5 +1,5 @@
 // 완점 탐색 : BFS
-package Level2;
+package 알고리즘_고득점_Kit.완전탐색;
 
 import java.util.*;
 

@@ -1,5 +1,5 @@
 // 완전 탐색
-package Level1;
+package 알고리즘_고득점_Kit.완전탐색;
 
 import java.util.*;
 
