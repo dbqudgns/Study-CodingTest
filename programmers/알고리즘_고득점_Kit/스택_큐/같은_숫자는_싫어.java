@@ -1,5 +1,5 @@
 // 스택(LIFO)
-package Level1;
+package 알고리즘_고득점_Kit.스택_큐;
 
 import java.util.*;
 
