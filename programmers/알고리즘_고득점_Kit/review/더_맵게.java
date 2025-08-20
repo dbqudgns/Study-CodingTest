@@ -1,4 +1,4 @@
-package review;
+package 알고리즘_고득점_Kit.review;
 
 import java.util.*;
 
