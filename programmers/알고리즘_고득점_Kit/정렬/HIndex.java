@@ -1,6 +1,6 @@
 // 정렬
 
-package Level2;
+package 알고리즘_고득점_Kit.정렬;
 
 import java.util.*;
 
