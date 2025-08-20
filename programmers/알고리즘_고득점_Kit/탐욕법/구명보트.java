@@ -1,4 +1,4 @@
-package Level2;
+package 알고리즘_고득점_Kit.탐욕법;
 
 import java.util.*;
 
