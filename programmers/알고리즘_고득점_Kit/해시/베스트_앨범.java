@@ -1,5 +1,5 @@
 // 해시
-package Level3;
+package 알고리즘_고득점_Kit.해시;
 
 import java.util.*;
 
