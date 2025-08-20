@@ -1,5 +1,5 @@
 // 힙
-package Level2;
+package 알고리즘_고득점_Kit.힙;
 
 import java.util.*;
 
