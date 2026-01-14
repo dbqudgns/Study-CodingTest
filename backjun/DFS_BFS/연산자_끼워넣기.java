@@ -71,6 +71,8 @@ public class 연산자_끼워넣기 {
                     case '/' :
                         count[j] -= 1;
 
+                        // 자바의 정수 나눗셈(/)은 음수/정수도 가능하고 몫의 결과도 -를 붙여준다.
+                        // 따라서 아래 IF 조건문은 생략 가능하다.
                         if (value < 0) {
                             value = Math.abs(value);
                             dfs((value / num[nextIndex]) * -1, nextIndex + 1, count);
