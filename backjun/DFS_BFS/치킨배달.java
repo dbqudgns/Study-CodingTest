@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Solution
+public class 치킨배달
 {
 	static int N;
 	static int M;
