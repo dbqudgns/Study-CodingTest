@@ -1,4 +1,4 @@
-package 시뮬레이션;
+package 구현;
 
 import java.io.BufferedReader;
 import java.io.IOException;
