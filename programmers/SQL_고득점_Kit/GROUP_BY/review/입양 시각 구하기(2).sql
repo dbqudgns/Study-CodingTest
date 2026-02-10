@@ -1,0 +1,14 @@
+-- ANIMAL_OUTS : 동물 보호소에서 입양 보낸 동물의 정보를 담은 테이블
+-- 주로 사용될 필드 : DATETIME
+-- 문제 : 0시부터 23시까지, 각 시간대별로 입양이 몇 건이나 발생했는지 조회하는 SQL문을 작성해주세요.
+
+WITH RECURSIVE HOUR AS (
+    SELECT 0 AS HOUR
+    UNION ALL
+    SELECT HOUR + 1 FROM HOUR WHERE HOUR < 23
+)
+
+SELECT H.HOUR, COUNT(A.DATETIME) AS COUNT
+FROM HOUR H LEFT JOIN ANIMAL_OUTS A ON H.HOUR = HOUR(A.DATETIME)
+GROUP BY H.HOUR
+ORDER BY H.HOUR
