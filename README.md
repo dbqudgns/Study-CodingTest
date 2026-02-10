@@ -1,6 +1,6 @@
 # CodingTest 
 
-시작일 : 05/05 ~ 진행중
+시작일 : 2025/05/05 ~ 진행중
 
 학습 노트 :
 - 자료구조 & 알고리즘 : [https://www.notion.so/21747a8d106680819ae9c7b906863f74](https://www.notion.so/21747a8d106680819ae9c7b906863f74?source=copy_link)
