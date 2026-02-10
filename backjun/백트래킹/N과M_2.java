@@ -1,4 +1,4 @@
-package DFS_BFS;
+package 백트래킹;
 
 import java.io.BufferedReader;
 import java.io.IOException;
