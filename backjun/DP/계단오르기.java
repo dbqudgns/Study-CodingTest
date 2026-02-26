@@ -78,7 +78,9 @@ public class 계단오르기 {
     public static int find(int n) {
         if (n < 0) return 0;
 
-        if (dp[n] == null) { // 시간 초과 방지용 (없으면 dp[n] 배열 중복 계산이 일어남)
+        if (dp[n] != null) return dp[n];
+
+  //      if (dp[n] == null) { // 시간 초과 방지용 (없으면 dp[n] 배열 중복 계산이 일어남) => 중복 if문 불편해서 최적화
             if (n == 0) {
                 dp[0] = stair[0];
             } else if (n == 1) {
@@ -86,7 +88,7 @@ public class 계단오르기 {
             } else {
                 dp[n] = Math.max(find(n - 2), find(n - 3) + stair[n - 1]) + stair[n];
             }
-        }
+      //  }
 
         return dp[n];
     }
