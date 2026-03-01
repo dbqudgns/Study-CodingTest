@@ -50,6 +50,7 @@ public class 토마토_7576 {
         while(!queue.isEmpty()) {
 
             int[] poll = queue.poll();
+            answer = poll[2]; // FIFO 구조인 큐를 사용하므로 poll 할 때마다 업데이트 진행
 
             for (int i = 0; i < 4; i++) {
                 int nextX = poll[0] + dx[i];
@@ -58,7 +59,7 @@ public class 토마토_7576 {
                 if (nextX < 0 || nextY < 0 || nextX >= M || nextY >= N) continue;
 
                 if (map[nextX][nextY] == 0) {
-                    answer = poll[2] + 1;
+                    // answer = poll[2] + 1;
                     queue.add(new int[] {nextX, nextY, poll[2] + 1});
                     map[nextX][nextY] = 1;
                 }
